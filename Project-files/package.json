@@ -1,13 +1,13 @@
 {
-  "name": "sass-tutorial",
+  "name": "Css-Library",
   "version": "1.0.0",
-  "description": "Sass tutorial project",
+  "description": "A simple css library created with Sass and managed with Gulp.js",
   "main": "index.js",
   "scripts": {
     "build": "gulp"
   },
-  "author": "Alexander LIakouris",
-  "license": "ISC",
+  "author": "Alexander Liakouris",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",

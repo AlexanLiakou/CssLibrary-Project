@@ -1,0 +1,80 @@
+// Theme Colors
+
+$primary: #326dee !default;
+$secondary:#1ac888 !default;
+$error: #d32752 !default;
+$info: #f6c31c !default;
+
+//colors palette
+
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error,
+    "blue":#1919e6,
+    "red":#e61919,
+    "info": $info,
+    "green":#19e635,
+    "orange":#ffa600,
+    "purple":#9900ff,
+    "grey":#808080,
+    "white": white,
+    "black": black,
+);
+
+//spacing
+
+$base-padding: 0.75rem !default;
+$base-margin: 0.75rem !default;
+
+$padding-x: (
+    "0": 0,
+    "1": $base-padding,
+    "2": $base-padding * 2,
+    "3": $base-padding * 4,
+    "4": $base-padding * 6,
+    "5": $base-padding * 8
+);
+
+$padding-y: (
+    "0": 0,
+    "1": $base-padding,
+    "2": $base-padding * 2,
+    "3": $base-padding * 4,
+    "4": $base-padding * 6,
+    "5": $base-padding * 8
+);
+
+$margin-x: (
+    "0": 0,
+    "1": $base-margin,
+    "2": $base-margin * 2,
+    "3": $base-margin * 4,
+    "4": $base-margin * 6,
+    "5": $base-margin * 8,
+    "auto": auto
+);
+
+$margin-y: (
+    "0": 0,
+    "1": $base-margin,
+    "2": $base-margin * 2,
+    "3": $base-margin * 4,
+    "4": $base-margin * 6,
+    "5": $base-margin * 8
+);
+
+//borders
+
+$base-border-thickness: 0.063rem !default;
+$base-border-radius: 0.313rem !default;
+
+//box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1) !default;
+
+//font-size
+$base-font-size: 1rem !default;
+$font-size-sm: $base-font-size * 0.75 !default;
+$font-size-lg: $base-font-size * 1.5 !default;
+$font-size-xl: $base-font-size * 2 !default;
+$font-size-xxl: $base-font-size * 3 !default;

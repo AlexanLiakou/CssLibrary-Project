@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Sass Tutorial</title>
+</head>
+<body>
+  <div style="max-width: 1920px; margin: auto;">
+    <nav class="navbar-primary mb-4">
+      <div class="container">
+        <h2 class="site-title text-white">Navbar Component</h2>
+        <p class="text-white">.navbar-[color]</p>
+      </div>
+    </nav>
+      <div class="container">
+        <!-- Text Colors -->
+        <h2 class="mb-1 font-xl">Text Colors</h2>
+        <p class="font-md mb-2">.text-[color]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap mb-5 row-gap-10 col-gap-10">
+          <span class="text-primary font-md">primary-text</span>
+          <span class="text-secondary font-md">secondary-text</span>
+          <span class="text-error font-md">error-text</span>
+          <span class="text-info font-md">info-text</span>
+          <span class="text-blue font-md">blue-text</span>
+          <span class="text-red font-md">red-text</span>
+          <span class="text-green font-md">green-text</span>
+          <span class="text-purple font-md">purple-text</span>
+          <span class="text-orange font-md">orange-text</span>
+          <span class="text-gray font-md">gray-text</span>
+        </div>
+        <!-- Background Colors -->
+        <h2 class="mb-1 font-xl">Background Colors</h2>
+        <p class="font-md mb-2">.bg-[color]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <span class="bg-primary text-white p-1">bg primary</span>
+          <span class="bg-secondary text-white p-1">bg secondary</span>
+          <span class="bg-error text-white p-1">bg error</span>
+          <span class="bg-info text-white p-1">bg info</span>
+          <span class="bg-blue text-white p-1">bg blue</span>
+          <span class="bg-red text-white p-1">bg red</span>
+          <span class="bg-green text-white p-1">bg green</span>
+          <span class="bg-purple text-white p-1">bg purple</span>
+          <span class="bg-orange text-white p-1">bg orange</span>
+          <span class="bg-gray text-white p-1">bg gray</span>
+        </div>
+        <!-- Background Dark/Light -->
+        <h2 class="mb-1 font-xl">Background Dark/Light</h2>
+        <p class="font-md mb-2">.text-[color]-[dark/light]-[value]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <span class="bg-primary-dark-8 text-white p-1">primary dark 8</span>
+          <span class="bg-primary-dark-6 text-white p-1">primary dark 6</span>
+          <span class="bg-primary-dark-4 text-white p-1">primary dark 4</span>
+          <span class="bg-primary-dark-2 text-white p-1">primary dark 2</span>
+          <span class="bg-primary text-white p-1">primary</span>
+          <span class="bg-primary-light-2 text-white p-1">primary light 2</span>
+          <span class="bg-primary-light-4 text-white p-1">primary light 4</span>
+          <span class="bg-primary-light-6 text-white p-1">primary light 6</span>
+          <span class="bg-primary-light-8 text-white p-1">primary light 8</span>
+        </div>
+        <!-- Opacity -->
+        <h2 class="mb-1 font-xl">Opacity</h2>
+        <p class="font-md mb-2">.o-[10-100]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <span class="bg-primary o-10 text-white p-1">opacity 10</span>
+          <span class="bg-primary o-20 text-white p-1">opacity 20</span>
+          <span class="bg-primary o-30 text-white p-1">opacity 30</span>
+          <span class="bg-primary o-40 text-white p-1">opacity 40</span>
+          <span class="bg-primary o-50 text-white p-1">opacity 50</span>
+          <span class="bg-primary o-60 text-white p-1">opacity 60</span>
+          <span class="bg-primary o-70 text-white p-1">opacity 70</span>
+          <span class="bg-primary o-80 text-white p-1">opacity 80</span>
+          <span class="bg-primary o-90 text-white p-1">opacity 90</span>
+          <span class="bg-primary o-100 text-white p-1">opacity 100</span>
+        </div>
+        <!-- Hover -->
+        <h2 class="mb-1 font-xl">Hover</h2>
+        <p class="font-md mb-1">.text-hover-[color]</p>
+        <p class="font-md mb-1">.bg-hover-[color]</p>
+        <p class="font-md mb-1">.text-hover-[color]-[dark/light]-[value]</p>
+        <p class="font-md mb-2">.bg-hover-[color]-[dark/light]-[value]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <a href="#" class="text-primary font-md text-hover-orange">hover me</a>
+          <a href="#" class="text-black font-md p-1 bg-hover-error">hover me</a>
+          <a href="#" class="text-primary font-md text-hover-green-light-2">hover me</a>
+          <a href="#" class="text-info font-md p-1 bg-hover-purple-dark-2">hover me</a>
+        </div>
+        <!-- Font Size -->
+        <h2 class="mb-1 font-xl">Font Size</h2>
+        <p class="font-md mb-1">.font-[sm/md/lg/xl/xxl]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <div class="font-sm mb-1">Font-sm</div>
+          <div class="font-md mb-1">Font-md</div>
+          <div class="font-lg mb-1">Font-lg</div>
+          <div class="font-xl mb-1">Font-xl</div>
+          <div class="font-xxl">Font-xxl</div>
+        </div>
+        <!-- Text Align -->
+        <h2 class="mb-1 font-xl">Text Align</h2>
+        <p class="font-md mb-2">.text-align-[direction/justify]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <p class="font-lg mb-1 text-center" style="width: 100%;">Center</p>
+          <p class="font-lg mb-1 text-left" style="width: 100%;">Left</p>
+          <p class="font-lg mb-1 text-right" style="width: 100%;">Right</p>
+          <p class="font-lg text-justify" style="width: 100%;">Justify</p>
+        </div>
+        <!-- Font Weight -->
+        <h2 class="mb-1 font-xl">Font Weight</h2>
+        <p class="font-md mb-2">.font-[light/normal/bold/extra-bold]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <p class="font-md mb-1 font-light">Light(200)</p>
+          <p class="font-md mb-1 font-normal">Normal(400)</p>
+          <p class="font-md mb-1 font-bold">Bold(700)</p>
+          <p class="font-md font-extra-bold">Extra bold(900)</p>
+        </div>
+        <!-- Margin -->
+        <h2 class="mb-4 mt-1 font-xxl">Other Utility classes</h2>
+        <h2 class="mb-1 font-xl">Margin</h2>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <p class="font-md mb-1"><span class="text-primary">Margin: </span>.m-[0/1/2/3/4/5]</p>
+          <p class="font-md mb-1"><span class="text-primary">Margin top: </span>.mt-[0/1/2/3/4/5]</p>
+          <p class="font-md mb-1"><span class="text-primary">Margin bottom: </span>.mb-[0/1/2/3/4/5]</p>
+          <p class="font-md mb-1"><span class="text-primary">Margin left: </span>.ml-[0/1/2/3/4/5]</p>
+          <p class="font-md mb-1"><span class="text-primary">Margin right: </span>.mr-[0/1/2/3/4/5]</p>
+          <p class="font-md mb-1"><span class="text-primary">Margin x: </span>.mx-[0/1/2/3/4/5/auto]</p>
+          <p class="font-md"><span class="text-primary">Margin y: </span>.my-[0/1/2/3/4/5]</p>
+        </div>
+        <!-- Padding -->
+        <h2 class="mb-1 font-xl">Padding</h2>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <p class="font-md mb-1"><span class="text-primary">Padding: </span>.p-[0/1/2/3/4/5]</p>
+          <p class="font-md mb-1"><span class="text-primary">Padding top: </span>.pt-[0/1/2/3/4/5]</p>
+          <p class="font-md mb-1"><span class="text-primary">Padding bottom: </span>.pb-[0/1/2/3/4/5]</p>
+          <p class="font-md mb-1"><span class="text-primary">Padding left: </span>.pl-[0/1/2/3/4/5]</p>
+          <p class="font-md mb-1"><span class="text-primary">Padding right: </span>.pr-[0/1/2/3/4/5]</p>
+          <p class="font-md mb-1"><span class="text-primary">Padding x: </span>.px-[0/1/2/3/4/5]</p>
+          <p class="font-md"><span class="text-primary">Padding y: </span>.py-[0/1/2/3/4/5]</p>
+        </div>
+        <!-- Column Gap/Row Gap -->
+        <h2 class="mb-1 font-xl">Column Gap/Row Gap</h2>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <p class="font-md mb-1"><span class="text-primary">Column gap: </span>.col-gap-[0-50]</p>
+          <p class="font-md mb-1"><span class="text-primary">Row gap: </span>.row-gap-[0-50]</p>
+        </div>
+        <!-- Display/Align Items/ Justify Content/Flex Wrap/Flex Direction -->
+        <h2 class="mb-1 font-xl">Display/Align Items/Justify Content/Flex Wrap/Flex Direction</h2>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <p class="font-md mb-1"><span class="text-primary">Display: </span>.display[n/b/f/i/i-b]</p>
+          <p class="font-md mb-1"><span class="text-primary">Align items: </span>.align-[regular css value]</p>
+          <p class="font-md mb-1"><span class="text-primary">Justify content: </span>.justify-[regular css value]</p>
+          <p class="font-md mb-1"><span class="text-primary">Flex wrap: </span>.f-wrap-[regular css value]</p>
+          <p class="font-md mb-1"><span class="text-primary">Flex direction: </span>.f-dir-[regular css value]</p>
+        </div>
+        <!-- Buttons -->
+        <h2 class="mb-1 font-xl">Buttons</h2>
+        <p class="font-md mb-1"><span class="text-primary">Button Color: </span>.btn-[color]</p>
+        <p class="font-md mb-1"><span class="text-primary">Button Outlined: </span>.btn-outlined-[color]</p>
+        <p class="font-md mb-2"><span class="text-primary">Button Complement: </span>.btn-complement-[color]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <a href="#" class="btn">default btn</a>
+          <a href="#" class="btn-primary text-white">button primary</a>
+          <a href="#" class="btn-secondary text-white">button secondary</a>
+          <a href="#" class="btn-error text-white">button error</a>
+          <a href="#" class="btn-info">button info</a>
+          <a href="#" class="btn-outlined-purple text-purple text-hover-white">button outlined purple</a>
+          <a href="#" class="btn-outlined-orange text-orange text-hover-white">button outlined orange</a>
+          <a href="#" class="btn-complement-purple">button complement purple</a>
+          <a href="#" class="btn-complement-primary">button complement primary</a>
+        </div>
+        <!-- Border Radius -->
+        <h2 class="mb-1 font-xl">Border Radius</h2>
+        <p class="font-md mb-2">.br-[none/xs/sm/lg/full]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <span class="bg-primary br-none text-white p-1">border-radius none</span>
+          <span class="bg-primary br-xs text-white p-1">border-radius xs</span>
+          <span class="bg-primary br-sm text-white p-1">border-radius sm</span>
+          <span class="bg-primary br-lg text-white p-1">border-radius lg</span>
+          <span class="bg-primary br-full text-white p-1">border-radius full</span>
+        </div>
+        <!-- Card -->
+        <h2 class="mb-1 font-xl">Card</h2>
+        <p class="font-md mb-1"><span class="text-primary">Card Class: </span>.card</p>
+        <p class="font-md mb-1"><span class="text-primary">Card Title Class: </span>.card-title</p>
+        <p class="font-md mb-2"><span class="text-primary">Card Body Class: </span>.card-body</p>
+        <div class="card mb-5">
+          <h1 class="card-title">Card title</h1>
+          <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sunt, quo totam aliquam praesentium ducimus tempore sapiente quia nulla optio? Lorem ipsum, dolor sit amet consectetur <a href="">adipisicing elit</a>. Libero laboriosam laborum exercitationem autem commodi voluptas odio aliquid ut velit doloremque minima, quaerat dolores, corporis consequuntur totam nam id veniam maxime.</p>
+        </div>
+        <!-- Grid -->
+        <h2 class="mb-1 font-xl">Grid</h2>
+        <p class="font-md mb-1">.row>.col-[column numbers(1-12)]-[breakpoint(xs/s/md/lg/xl)]</p>
+        <div class="row mb-3">
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Card Title</h3>
+              <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Card Title</h3>
+              <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Card Title</h3>
+              <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Card Title</h3>
+              <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Badges -->
+        <h2 class="mb-1 font-xl">Badges</h2>
+        <p class="font-md mb-2">.badge-[color]</p>
+        <div class="display-f align-center justify-space-around f-wrap-wrap font-md mb-5 row-gap-10 col-gap-10">
+          <span class="badge-primary text-white">badge primary</span>
+          <span class="badge-secondary text-white">badge secondary</span>
+          <span class="badge-error text-white">badge error</span>
+          <span class="badge-info">badge info</span>
+          <span class="badge-orange text-white">badge orange</span>
+          <span class="badge-purple text-white">badge purple</span>
+        </div>
+      </div>
+  </div>
+  </body>
+</html>

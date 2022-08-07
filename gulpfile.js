@@ -9,9 +9,9 @@ function buildStyles () {
     return src("library/**/*.scss")
     .pipe(map.init())
     .pipe(sass())
-    //.pipe(purgecss({content:['*.html']}))
-    //.pipe(prefix())
-    //.pipe(minify())
+    .pipe(purgecss({content:['*.html']}))
+    .pipe(prefix())
+    .pipe(minify())
     .pipe(map.write('./'))
     .pipe(dest("css"))
 }
